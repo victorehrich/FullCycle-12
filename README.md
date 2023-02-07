@@ -13,4 +13,3 @@
     <li>Elasticsearch</li>
   </ul>
 </p>
-<p> Uma das propostas é nâo utilizarmos REST, e sim websockets, para fazermos essa parte de rastreio em tempo real, e utilizar o Kafka para a comunicação.</p>
