@@ -27,6 +27,8 @@ export class Map{
             currentMarkerOptions: {...currentMarkerOptions, map:this.map},
             endMarkerOptions: {...endMarkerOptions, map: this.map}
         })
+        this.fitBounds();
+
     }
     private fitBounds() {
         const bounds = new google.maps.LatLngBounds();
