@@ -78,7 +78,6 @@ export const Mapping:FunctionComponent = (props) =>{
         position: [number, number];
         finished: boolean;
       }) => {
-        console.log(data);
         mapRef.current?.moveCurrentMarker(data.routeId, {
           lat: data.position[0],
           lng: data.position[1],
@@ -116,6 +115,12 @@ export const Mapping:FunctionComponent = (props) =>{
     const startRoute = useCallback(
       (event: FormEvent) => {
         event.preventDefault();
+        if(!routesIdSelected){
+          enqueueSnackbar(`Selecione uma rota!`, {
+            variant: "error",
+          });
+          return
+        }
         const route = routes.find((route) => route._id === routesIdSelected);
         const color = sample(shuffle(colors)) as string;
         try {

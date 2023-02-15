@@ -56,7 +56,6 @@ export class RoutesGateway implements OnModuleInit {
       );
       return;
     }
-    console.log('menssagens', rest);
     clientConnected.emit('new-position', rest);
   }
 }
