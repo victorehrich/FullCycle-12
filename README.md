@@ -8,8 +8,6 @@
     <li>Nest</li>
     <li>Kafka</li>
     <li>Docker</li>
-    <li>Kubernetes</li>
     <li>React</li>
-    <li>Elasticsearch</li>
   </ul>
 </p>
