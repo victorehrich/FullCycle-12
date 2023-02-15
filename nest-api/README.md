@@ -9,4 +9,4 @@
 docker-compose up 
 ```
 <p>Após isso, tanto o container do nest, quanto o do mongo serão criados.</p>
-<p>acesse <a>http://localhost:3000/routes para ver as rotas cadastradas</a></p>
+<p>acesse <a href="http://localhost:3000/routes">http://localhost:3000/routes para ver as rotas cadastradas</a></p>

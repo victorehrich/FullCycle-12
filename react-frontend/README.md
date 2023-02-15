@@ -7,4 +7,4 @@
 ```
 docker-compose up 
 ```
-<p>Após o container ficar ativo, acesse <a>http://localhost:3001</a> para abrir a página da aplicação</p>
+<p>Após o container ficar ativo, acesse <a href="http://localhost:3001">http://localhost:3001</a> para abrir a página da aplicação</p>
