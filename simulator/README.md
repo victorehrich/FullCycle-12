@@ -1,8 +1,8 @@
 # FullCycle-12-Simulator
 
 <p>Nessa pasta, estão os docker-compose tanto para o simulador em go, como para o Kafka.</p>
-<a href="https://github.com/victorehrich/FullCycle-12/tree/master/simulator/.docker/kafka/README.md">link para oREADME.md do kafka</a>
-<label style='font-size:8px;color:red'>*dentro dos docker-compose, será necessário configurar com o seu IP do WSL2</label>
+<a href="https://github.com/victorehrich/FullCycle-12/tree/master/simulator/.docker/kafka/README.md">link para o README.md do kafka</a>
+<p>*dentro dos docker-compose, será necessário configurar com o seu IP do WSL2</p>
 <p></p>
 <h3>Comandos:</h3>
 
