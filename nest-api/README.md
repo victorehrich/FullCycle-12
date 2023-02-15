@@ -4,6 +4,7 @@
 
 <p>Para iniciar o container do Back, basta executar no terminal, dentro dessa pasta</p>
 <p>*Não esqueça de verificar se o container kafka-1 está ativo, pois o backend necessita da comunicação com ele.</p>
+
 ```
 docker-compose up 
 ```

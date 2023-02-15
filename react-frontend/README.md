@@ -3,6 +3,7 @@
 <h3>Comandos:</h3>
 
 <p>Para iniciar o container do front, basta executar no terminal, dentro dessa pasta</p>
+
 ```
 docker-compose up 
 ```
